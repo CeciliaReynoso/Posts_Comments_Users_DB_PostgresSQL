@@ -167,3 +167,4 @@ HAVING count(comentarios.usuario_id) = 0
 -- Nota: Se ha guardado la query 'Setup_inicial'que contiene el punto 1: La creacion de la db y las tres tablas requeridas.
 --       Separadamente, se ha guardado otra query 'Consultas' que contiene la logica para responder
 --       a los requerimientos del 2 al 10 del Desafio 3 para que se puedan usar con valores distintos en las tablas.
+--       Ambas queries se pueden encontrar abriendo le extención DATABASE CLIENT o en PJAdmin.
