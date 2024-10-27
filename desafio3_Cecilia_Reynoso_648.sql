@@ -66,7 +66,7 @@ LEFT JOIN posts
 ON usuarios.id = posts.usuario_id;
 -- 3.- Muestra el id, título y contenido de los posts de los administradores.
 --     El administrador puede ser cualquier id.
-SELECT usuarios.rol, usuarios.email, posts.titulo, posts.contenido
+SELECT usuarios.rol, usuarios.email, post.ID, posts.titulo, posts.contenido
 FROM posts
 LEFT JOIN usuarios
 ON usuarios.id = posts.usuario_id
