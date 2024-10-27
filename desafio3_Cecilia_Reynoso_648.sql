@@ -115,7 +115,7 @@ FROM comentarios
 LEFT JOIN posts
 ON posts.id = comentarios. post_id
 GROUP BY comentarios.post_id, posts.titulo, posts.contenido;
-ORDER BY count(comentarios.post_id) DESC;
+ORDER BY count(*) DESC;
 -- 8.- Muestra en una tabla el título de cada post, el contenido de cada post y el contenido
 --     de cada comentario asociado a los posts mostrados, junto con el email del usuario
 --     que lo escribió.
